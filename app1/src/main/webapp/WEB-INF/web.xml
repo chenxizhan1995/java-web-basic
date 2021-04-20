@@ -9,8 +9,16 @@
         <servlet-name>HelloServletGet</servlet-name>
         <servlet-class>cc.xizhan.basic.web.app1.HelloServletGet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletForm</servlet-name>
+        <servlet-class>cc.xizhan.basic.web.app1.ServletForm</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletGet</servlet-name>
         <url-pattern>/hello-servlet-get</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletForm</servlet-name>
+        <url-pattern>/servlet-form</url-pattern>
     </servlet-mapping>
 </web-app>
