@@ -20,11 +20,9 @@ public class ServletForm extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>Servlet Form Demo</title></head>");
         out.println("<body><p>名字:" + name + "</p>");
-        out.println("<p>password:" + password + "</p>");
+        out.println("<p>密码:" + password + "</p>");
         out.println("</body></html>");
         out.flush();
         out.close();
-        final String s2 = "hello, 中文 " + new Date();
-        System.out.println(s2);
     }
 }

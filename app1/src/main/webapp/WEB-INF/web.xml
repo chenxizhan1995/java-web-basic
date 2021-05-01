@@ -13,6 +13,11 @@
         <servlet-name>ServletForm</servlet-name>
         <servlet-class>cc.xizhan.basic.web.app1.ServletForm</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletEncoding</servlet-name>
+        <servlet-class>cc.xizhan.basic.web.app1.ServletEncoding</servlet-class>
+        <description>试验webapp中字符串常量编码问题</description>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletGet</servlet-name>
         <url-pattern>/hello-servlet-get</url-pattern>
@@ -20,5 +25,9 @@
     <servlet-mapping>
         <servlet-name>ServletForm</servlet-name>
         <url-pattern>/servlet-form</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletEncoding</servlet-name>
+        <url-pattern>/servlet/encoding</url-pattern>
     </servlet-mapping>
 </web-app>
