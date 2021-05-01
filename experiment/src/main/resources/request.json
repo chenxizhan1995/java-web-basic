@@ -1,0 +1,17 @@
+{
+    "request": {
+        "requestName": "工商数据查询",
+        "datasourceType": [
+            "THIRD_PARTY_DATASOURCE_QICHACHA.DETAILS"
+        ],
+        "resultEnumId": 1,
+        "params": {
+            "keyword": "乐视网信息技术（北京）股份有限公司"
+        },
+        "uuid": "d691b786-bbe4-4fb5-ba8b-b8012225e8ed",
+        "operationEnumId": "1002003"
+    },
+    "header": {
+        "tid": "dsfsj-2019-d6dc-87cr-a0c0-f15736a05abc"
+    }
+}
