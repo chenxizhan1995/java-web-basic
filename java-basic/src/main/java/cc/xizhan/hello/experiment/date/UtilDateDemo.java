@@ -2,6 +2,9 @@ package cc.xizhan.hello.experiment.date;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.Locale;
 
@@ -56,5 +59,17 @@ public class UtilDateDemo {
         // 计算两个日期相差的秒数,除以一天的秒数
         return (int) ((dt1.getTime() - dt2.getTime()) / (1000 * 24 * 3600));
     }
-
+    /** 计算两个日期相差的天数 end - start，包括 start，不包括 end
+     *
+     * @param start
+     * @param end
+     * @return
+     */
+    public int between(final Date start, final Date end) {
+        // [Java8 学习之计算日期相差天数_gj_sun的博客-CSDN博客](https://blog.csdn.net/gj_sun/article/details/53353446)
+        if (start == null) return 9999; // 如果到期日期未空，则认为它距离到期很远很远。
+         long epochDay1 = start.toInstant().atZone(ZoneId.systemDefault()).toLocalDate().toEpochDay();
+         long epochDay2 = end.toInstant().atZone(ZoneId.systemDefault()).toLocalDate().toEpochDay();
+        return (int)(epochDay2 - epochDay1);
+    }
 }
