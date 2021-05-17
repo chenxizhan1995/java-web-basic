@@ -14,7 +14,6 @@ import java.util.Date;
  */
 public class DateDemo {
 
-    //
     public void t01(){
         System.out.println(new java.util.Date());
     }

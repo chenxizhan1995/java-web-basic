@@ -1,4 +1,4 @@
-package cc.xizhan.hello.experiment;
+package cc.xizhan.hello;
 
 import java.text.MessageFormat;
 
