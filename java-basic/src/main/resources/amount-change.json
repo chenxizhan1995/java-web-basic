@@ -1,0 +1,266 @@
+{
+    "data": {
+        "formInfo": {
+            "widgetMap": {
+                "_S_SERIAL": {
+                    "codeId": "_S_SERIAL",
+                    "title": "流水号",
+                    "type": "serialNumWidget"
+                },
+                "Te_0": {
+                    "codeId": "Te_0",
+                    "extendFieldMap": {
+                        "wordLimit": 200
+                    },
+                    "title": "事由",
+                    "type": "textWidget",
+                    "value": "为开发测试，发起审批单"
+                },
+                "_S_DATE": {
+                    "codeId": "_S_DATE",
+                    "fromNowOn": false,
+                    "title": "申请日期",
+                    "type": "dateWidget",
+                    "value": 1631591469281
+                },
+                "Ra_0": {
+                    "codeId": "Ra_0",
+                    "extendFieldMap": {},
+                    "displaylinkageVos": [],
+                    "options": [
+                        {
+                            "checked": false,
+                            "value": "贴现白名单申请",
+                            "key": "AaBaCcDd"
+                        },
+                        {
+                            "checked": false,
+                            "value": "贴现白名单+贴现额度申请",
+                            "key": "EeFfGgHh"
+                        },
+                        {
+                            "checked": false,
+                            "value": "贴现额度申请",
+                            "key": "IiJjKkLl"
+                        },
+                        {
+                            "checked": false,
+                            "value": "贴现额度调整",
+                            "key": "hrYXKQAa"
+                        }
+                    ],
+                    "linkRule": [],
+                    "title": "业务类型",
+                    "type": "radioWidget",
+                    "value": "hrYXKQAa"
+                },
+                "_S_APPLY": {
+                    "eid": "20210301",
+                    "codeId": "_S_APPLY",
+                    "existEcosphere": false,
+                    "title": "提交人",
+                    "type": "personSelectWidget",
+                    "personInfo": [
+                        {
+                            "image": "https://sz.shigfc.com.cn/space/c/photo/load?id=3f9c29418e8c0d22d085eea5",
+                            "companyName": "山东重工测试团队1",
+                            "jobTitle": "员工",
+                            "name": "李四",
+                            "deptLongName": "山东重工测试团队1/测试",
+                            "oid": "6121c7a584ae1031946615d7",
+                            "dept": "测试",
+                            "userId": "6121c7a584ae1031946615d0"
+                        }
+                    ],
+                    "value": [
+                        "6121c7a584ae1031946615d7"
+                    ],
+                    "option": "single"
+                },
+                "At_0": {
+                    "codeId": "At_0",
+                    "extendFieldMap": {
+                        "docOnly": false,
+                        "pdfOnly": false
+                    },
+                    "maximum": 30,
+                    "title": "文件",
+                    "type": "attachmentWidget"
+                },
+                "_S_DEPT": {
+                    "eid": "20210301",
+                    "codeId": "_S_DEPT",
+                    "title": "所属部门",
+                    "type": "departmentSelectWidget",
+                    "deptInfo": [
+                        {
+                            "name": "测试",
+                            "orgId": "56e30d2a-d676-11eb-8834-fefcfe59cf7b",
+                            "realLongName": "山东重工测试团队1!测试",
+                            "longName": "测试"
+                        }
+                    ],
+                    "selectCompanyOnly": false,
+                    "value": [
+                        "56e30d2a-d676-11eb-8834-fefcfe59cf7b"
+                    ]
+                },
+                "_S_TITLE": {
+                    "codeId": "_S_TITLE",
+                    "extendFieldMap": {
+                        "titleEntity": {
+                            "kind": "TITLE_DEFAULT",
+                            "list": [
+                                {
+                                    "formItem": "_S_APPLY",
+                                    "kind": "ITEM_FORM_ITEM"
+                                },
+                                {
+                                    "formItem": "的",
+                                    "kind": "ITEM_STRING"
+                                },
+                                {
+                                    "formItem": "模板名称",
+                                    "kind": "ITEM_TEMPLATENAME"
+                                }
+                            ]
+                        },
+                        "defaultTitle": true
+                    },
+                    "title": "标题",
+                    "type": "textWidget",
+                    "value": "李四的贴现额度调整-测试-1631591469"
+                }
+            },
+            "detailMap": {
+                "Dd_0": {
+                    "buttonName": "添加明细",
+                    "codeId": "Dd_0",
+                    "widgetVos": {
+                        "Te_5": {
+                            "codeId": "Te_5",
+                            "extendFieldMap": {
+                                "wordLimit": 200
+                            },
+                            "title": "说明",
+                            "type": "textWidget"
+                        },
+                        "Mo_1": {
+                            "codeId": "Mo_1",
+                            "decimalDigit": 2,
+                            "displayThousand": true,
+                            "extendFieldMap": {},
+                            "detailCountName": "总金额(元)",
+                            "displayAmountWords": false,
+                            "title": "贴现额度申请金额(元)",
+                            "type": "moneyWidget",
+                            "detailCountAmountWords": false,
+                            "detailCount": true
+                        },
+                        "Te_4": {
+                            "codeId": "Te_4",
+                            "extendFieldMap": {
+                                "wordLimit": "10"
+                            },
+                            "title": "校验状态",
+                            "type": "textWidget"
+                        },
+                        "Te_3": {
+                            "codeId": "Te_3",
+                            "extendFieldMap": {
+                                "wordLimit": 200
+                            },
+                            "title": "客户名称",
+                            "type": "textWidget"
+                        },
+                        "Te_2": {
+                            "codeId": "Te_2",
+                            "extendFieldMap": {
+                                "wordLimit": 200
+                            },
+                            "title": "客户编码",
+                            "type": "textWidget"
+                        },
+                        "Mo_0": {
+                            "codeId": "Mo_0",
+                            "decimalDigit": 2,
+                            "displayThousand": true,
+                            "extendFieldMap": {},
+                            "detailCountName": "总金额(元)",
+                            "displayAmountWords": false,
+                            "title": "贴现额度调整前金额金额(元)",
+                            "type": "moneyWidget",
+                            "detailCountAmountWords": false,
+                            "detailCount": true
+                        },
+                        "Da_0": {
+                            "codeId": "Da_0",
+                            "dateFormat": "yyyy-MM-dd",
+                            "extendFieldMap": {},
+                            "fromNowOn": false,
+                            "title": "结束日期",
+                            "type": "dateWidget"
+                        },
+                        "Da_1": {
+                            "codeId": "Da_1",
+                            "dateFormat": "yyyy-MM-dd",
+                            "extendFieldMap": {},
+                            "fromNowOn": false,
+                            "title": "开始日期",
+                            "type": "dateWidget"
+                        }
+                    },
+                    "extendFieldMap": {
+                        "showSerialNum": true
+                    },
+                    "widgetValue": [
+                        {
+                            "Mo_1": "2000000000",
+                            "Te_3": "山东山盛置业有限公司-测试客户-1",
+                            "Te_2": "150010001",
+                            "_id_": "1",
+                            "Da_0": 1640966399000,
+                            "Da_1": 1609430400000
+                        },
+                        {
+                            "Mo_1": "4000000000",
+                            "Te_3": "山东山盛置业有限公司-测试客户-2",
+                            "Te_2": "150010002",
+                            "_id_": "2",
+                            "Da_0": 1640966399000,
+                            "Da_1": 1609430400000
+                        },
+                        {
+                            "Mo_1": "6000000000",
+                            "Te_3": "山东山盛置业有限公司-测试客户-3",
+                            "Te_2": "150010003",
+                            "_id_": "3",
+                            "Da_0": 1640966399000,
+                            "Da_1": 1609430400000
+                        }
+                    ],
+                    "imageInfo": {},
+                    "title": "明细",
+                    "type": "detailedWidget"
+                }
+            }
+        },
+        "basicInfo": {
+            "nodeName": "开始审批",
+            "eid": "20210301",
+            "eventId": "8a6b7154-e7e9-4261-b204-2d3177c387b8",
+            "formDefId": "613f3efe5c87a69181a0bae8",
+            "dataType": 1,
+            "nodeType": "start",
+            "title": "贴现自动化",
+            "formCodeId": "5605d9e030354fc88b5d7300c1b988e5",
+            "actionType": "before_submit",
+            "eventTime": 1631591469289,
+            "interfaceId": "p7oRRjV0",
+            "interfaceName": "提交前拦截",
+            "returned": false
+        }
+    },
+    "success": true,
+    "errorCode": 0
+}
