@@ -1,0 +1,109 @@
+{
+  "data": {
+    "formInfo": {
+      "widgetMap": {
+        "_S_SERIAL": {
+          "codeId": "_S_SERIAL",
+          "title": "流水号",
+          "type": "serialNumWidget"
+        },
+        "_S_DATE": {
+          "codeId": "_S_DATE",
+          "fromNowOn": false,
+          "title": "申请日期",
+          "type": "dateWidget",
+          "value": 1637551617828
+        },
+        "_S_APPLY": {
+          "eid": "20210301",
+          "codeId": "_S_APPLY",
+          "existEcosphere": false,
+          "title": "提交人",
+          "type": "personSelectWidget",
+          "personInfo": [
+            {
+              "image": "https://sz.shigfc.com.cn/space/c/photo/load?id=5f39d90ab4317d000110f439",
+              "companyName": "山东重工测试团队1",
+              "jobTitle": "",
+              "name": "陈希展",
+              "deptLongName": "山东重工测试团队1/测试",
+              "oid": "6107594b84aeb31a6e8ecc92",
+              "dept": "测试",
+              "userId": "5f39d8e3e4b066fba22c2f29"
+            }
+          ],
+          "value": [
+            "6107594b84aeb31a6e8ecc92"
+          ],
+          "option": "single"
+        },
+        "At_0": {
+          "codeId": "At_0",
+          "extendFieldMap": {
+            "docOnly": false,
+            "pdfOnly": false
+          },
+          "maximum": 30,
+          "title": "文件",
+          "type": "attachmentWidget"
+        },
+        "_S_DEPT": {
+          "eid": "20210301",
+          "codeId": "_S_DEPT",
+          "title": "所属部门",
+          "type": "departmentSelectWidget",
+          "deptInfo": [
+            {
+              "name": "测试",
+              "orgId": "56e30d2a-d676-11eb-8834-fefcfe59cf7b",
+              "realLongName": "山东重工测试团队1!测试",
+              "longName": "测试"
+            }
+          ],
+          "selectCompanyOnly": false,
+          "value": [
+            "56e30d2a-d676-11eb-8834-fefcfe59cf7b"
+          ]
+        },
+        "_S_TITLE": {
+          "codeId": "_S_TITLE",
+          "title": "标题",
+          "type": "textWidget",
+          "value": "陈希展的callback"
+        }
+      },
+      "detailMap": {}
+    },
+    "basicInfo": {
+      "nodeName": "审批节点1",
+      "eid": "20210301",
+      "eventId": "03e15d5c-8649-422d-a0e8-fe6a5e8f04ec",
+      "formDefId": "619afb915c87a648a580a9e8",
+      "dataType": 0,
+      "myNetworkInfo": {
+        "eid": "20210301",
+        "name": "山东重工测试团队1"
+      },
+      "nodeType": "normal",
+      "title": "callback",
+      "formCodeId": "4a5ca8e0db7742ef8b95fa6016b067c8",
+      "myPersonInfo": {
+        "image": "https://sz.shigfc.com.cn/space/c/photo/load?id=5f39d90ab4317d000110f439",
+        "jobNo": "",
+        "name": "陈希展",
+        "oid": "6107594b84aeb31a6e8ecc92"
+      },
+      "formInstId": "test001",
+      "eventTime": 1637551617845,
+      "myDeptInfo": {
+        "name": "测试",
+        "orgId": "56e30d2a-d676-11eb-8834-fefcfe59cf7b"
+      },
+      "interfaceId": "OAEUSZZx",
+      "interfaceName": "test",
+      "returned": false
+    }
+  },
+  "success": true,
+  "errorCode": 0
+}
