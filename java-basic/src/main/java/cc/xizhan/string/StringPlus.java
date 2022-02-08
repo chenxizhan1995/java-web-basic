@@ -1,3 +1,5 @@
+package cc.xizhan.string;
+
 /**
  * <p> Description: 字符串加法遇到null会怎样？ "hello" + null -> "hellonull" </p>
  */
